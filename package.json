@@ -1,0 +1,18 @@
+{
+  "name": "olacab",
+  "version": "1.0.0",
+  "description": "Ola progressive web app",
+  "main": "main.js",
+  "scripts": {
+    "start": "http-server -c-1 -p 8081",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ola_web_app"
+  ],
+  "author": "shivam",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}

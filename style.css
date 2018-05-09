@@ -1,0 +1,220 @@
+
+/* universal */
+/* universal */
+.change:hover{color: greenyellow !important;}
+.pointer{cursor: pointer !important;}
+.black-text{color: #000 !important;}
+.center{text-align: center;}
+.margin{ margin: 50px auto;}
+/* .btn-hover:hover{
+    background-color: rgba(171, 254, 45,1);
+    color: black;
+} */
+
+
+/* 1st navbar */
+/* 1st navbar */
+.navbar-small div ul li a {
+    padding-top:5px !important; 
+    padding-bottom:5px !important;}
+.navbar-small{
+    min-height:34px !important;
+}
+
+
+/* 2nd navbar */
+/* 2nd navbar */
+.navbar-big{
+    margin-top: 34px !important;
+    background: #fff !important;
+}
+
+.navbar-big div ul li, .navbar-header{
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;  
+}
+
+
+/* jumbotron */
+/* jumbotron */
+.jumbotron{
+    margin-top: 25px;
+    height: 760px;
+    text-align: center;
+    color: white !important;
+    overflow: hidden;
+}
+.lap{height: 760px;width: 100%; padding-top: 50px;}
+.img1{background-image: url("https://cms-web.olacabs.com/00000000383.jpg");}
+.img2{background-image: url("https://cms-web.olacabs.com/00000000385.jpg");}
+.img3{background-image: url("https://cms-web.olacabs.com/00000000384.jpg");}
+
+/* bar */
+/* bar */
+
+.bar{
+    position: absolute;
+    top: 270px;
+    left: 70px;
+}
+.bar-head{
+    column-count: 3;
+    text-align: center;
+    background: #fff;
+    border-radius: 5px 5px 0 0;
+    height: 45px;
+    width: 400px;
+    padding-top: 10px;
+}
+
+.add{
+    margin: 0 8px;
+    border-radius: 10px;
+    background: greenyellow;
+}
+
+.bar-body-container{
+    height: 280px;
+    width: 400px;
+    overflow:hidden;
+    border-radius: 0 0 5px 5px;
+}
+.bar-body{
+    height: 280px;
+    width: 400px;   
+    background: #fff; 
+}
+.inside{
+    height: 40px;
+    width: 378px;
+    margin: 7px 10px 7px 10px;
+    border-radius: 5px;
+    background-color: #c7c7c7;
+}
+.inside-button{
+    height: 44px;
+    width: 379px;
+    margin: 7px 10px 5px 10px;
+    padding-top: 2px;
+    border-radius: 5px;
+    background-color: greenyellow;
+}
+
+
+/* scroll-left */
+/* scroll-left */
+.shift{
+    position: relative;
+    bottom: 80px;
+    width: 1200;
+}
+.scroller{
+    background-color: #fff;
+    height: 96px;
+    width: 1100px;
+     
+}
+.carousel-inner{
+    height:100px !important;
+}
+@media(max-width:480px){
+    .media{
+        text-align: left !important;
+        display: block;
+    }
+}
+.chevron{
+    background: #fff;
+    height: 96px;
+    width: 50px;
+}
+.arrow{
+    padding-top: 40px;
+    padding-left: 12px;
+}
+
+/* CARDS */
+/* CARDS */
+.active{
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    background: greenyellow;
+    border-radius: 40px;
+    position: relative;
+    bottom: 45px;
+    left: 90px;
+}
+.caption{
+    color: #fff !important;
+    background: rgba(0, 0, 0,0.8) !important;
+}
+.caption h4{
+    column-count: 2;
+}
+.caption p span{
+    margin-left: 7px;
+}
+
+/* TAXI-TYPE(SLIDER) */
+/* TAXI-TYPE(SLIDER) */
+
+.taxi-type-text{
+    margin-top:50px;
+    margin-left:-20px;
+}
+.left-arrow,.right-arrow{
+    margin-top: 200px;
+}
+.triangle{
+    height: 0;
+    width: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #dcdcdc;;
+    margin-left: 130px;
+}
+
+
+/* features */
+/* features */
+
+
+/* FOOTER */
+/* FOOTER */
+.footer{
+    color: #fff;
+    background-color: #333333;
+}
+.list{
+    margin-top: 25px !important; 
+}
+/* .footer small{
+    color: #fff !important;
+    line-height: 10px !important;
+} */
+.footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+    font-size: 12px;
+    color: #fff !important;
+    cursor: pointer !important;
+}
+.footer ul li:hover{
+    color: greenyellow;
+}
+.list-hide{
+    display: none;
+}
+/* social media */
+.box{
+    height:40px;
+    width:180px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    float: right;
+    display: flex;
+
+}
